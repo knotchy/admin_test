@@ -51,3 +51,12 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# 言語変更
+gem 'rails-i18n', '~> 5.1'
+# gem 'activeadmin-translate'
+gem 'devise-i18n'
+
+# admin管理Gem
+gem 'activeadmin'
+gem 'devise'
